@@ -76,7 +76,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <Navbar cartCount={cart.length - 1} />
+      <Navbar cartCount={cart.length} />
       {/* book-list div maps through each book in the books array and renders a BookCard component for each book. */}
       <div className="book-list">
         {/* BookCard component is passed props like book, addToCart, removeFromCart, and
